@@ -12,6 +12,12 @@ inputs:
   run:
     description: 'Command to run'
     required: true
+  region:
+    description: 'AWS region'
+  loggroup:
+    description: 'CWL log group'
+  logstream:
+    description: 'CWL log stream'
 
 # Define your outputs here.
 outputs:
