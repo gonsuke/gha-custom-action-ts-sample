@@ -17,7 +17,7 @@ export class CloudWatchLogger {
   constructor(region: string, logGroupName: string, logStreamName: string) {
     this.client = new CloudWatchLogsClient({ region })
     this.logGroupName = logGroupName
-    this.logStreamName = logStreamName 
+    this.logStreamName = logStreamName
   }
 
   async initialize(): Promise<void> {
